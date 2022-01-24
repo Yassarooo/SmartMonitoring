@@ -27,7 +27,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableAutoConfiguration
 @EnableConfigurationProperties({FileStorageProperties.class})
 @ComponentScan
-@EntityScan(basePackages = {"Project.domain"})
+@EntityScan(basePackages = {"com.jazara.smartmonitoring.domain"})
 @EnableJpaRepositories(basePackages = {"com.jazara.smartmonitoring.repository"})
 @SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 @EnableTransactionManagement
