@@ -50,7 +50,6 @@ public class JwtUserDetailsService implements UserDetailsService {
 
     private final static Logger log = Logger.getLogger(UserAspect.class.getName());
 
-    @Autowired
     public JwtUserDetailsService(AppUserRepository appUserRepository) {
         this.appUserRepository = appUserRepository;
     }
